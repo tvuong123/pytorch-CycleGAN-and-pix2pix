@@ -1,0 +1,8 @@
+python –m visdom.server 
+python train.py --dataroot ./datasets/vangogh2photo --name van_cyclegan_1 --model cycle_gan --no_dropout –-gpu_ids 0,1 –-batchSize 32 –-display_id 1 
+
+
+
+./checkpoints/maps_cyclegan/web/index.html
+
+ http://localhost:8097
